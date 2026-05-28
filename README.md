@@ -6,10 +6,10 @@
 |-----|------|
 | Dan-Arias KALEMA MASUDI | Chef de projet / Code FSM |
 | Ndoumbe DIAKHOUMPA | Responsable matériel et passerel |
-| Karim Zerdali | Resposable de la gestion global du programme|
-|Adame Gun Nouni| Structure,Design coque |
+| Karim Zerdali | Responsable de la gestion global du programme|
+|Adame Gun Nouni| Responsable Structure,Design coque |
 |David Papagiorgou | Responsable plan d'experience|
-|Ines MELAB | Chrono et Capteur|
+|Ines MELAB | Responsable Chrono et Capteur|
 |Kevin RAZAFINDRATSIORY | Responsable Chrono|
 
 ## Description du robot
