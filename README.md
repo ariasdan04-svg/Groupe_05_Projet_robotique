@@ -1,4 +1,4 @@
-rojectile via catapulte.
+
 # Projet Robotique – Groupe 05
 **Université Évry Paris-Saclay – L3 – 2025-2026**
 
