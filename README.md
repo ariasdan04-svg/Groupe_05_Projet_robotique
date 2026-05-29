@@ -68,8 +68,7 @@ détection couleur, LEDs NeoPixel, afficheur LCD et tir catapulte.
 - `rgb_lcd` — afficheur LCD Grove
 # Code Arduino – Groupe 05
 
-## Thématique 4 – Programme et composants de la séquence de tir
-**Responsable : Dan-Arias KALEMA MASUDI**
+##  Programme et composants de la séquence de tir- Dan-Arias KALEMA MASUDI
 
 ### Fichiers
 | Fichier | Description |
@@ -83,8 +82,7 @@ détection couleur, LEDs NeoPixel, afficheur LCD et tir catapulte.
 
 ---
 
-## Thématique 5 – Programme et composants suivi de ligne, détection de couleur et allumage des LEDs
-**Responsable : Dan-Arias KALEMA MASUDI**
+## Programme et composants suivi de ligne, détection de couleur et allumage des LEDs - Dan-Arias KALEMA MASUDI
 
 ### Fichiers
 | Fichier | Description |
@@ -101,8 +99,7 @@ détection couleur, LEDs NeoPixel, afficheur LCD et tir catapulte.
 
 ---
 
-## Thématique 6 – Programme et composants évitement d'obstacles, suivi de mur et récupération de ligne
-**Responsable : Dan-Arias KALEMA MASUDI**
+## Programme et composants évitement d'obstacles, suivi de mur et récupération de ligneResponsable - Dan-Arias KALEMA MASUDI
 
 ### Fichiers
 | Fichier | Description |
