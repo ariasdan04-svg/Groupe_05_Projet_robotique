@@ -66,3 +66,51 @@ détection couleur, LEDs NeoPixel, afficheur LCD et tir catapulte.
 - `Adafruit_TCS34725` — capteur couleur
 - `Adafruit_NeoPixel` — LEDs RGB
 - `rgb_lcd` — afficheur LCD Grove
+# Code Arduino – Groupe 05
+
+## Thématique 4 – Programme et composants de la séquence de tir
+**Responsable : Dan-Arias KALEMA MASUDI**
+
+### Fichiers
+| Fichier | Description |
+|---------|-------------|
+| `code/robot_final/robot_final.ino` | Code global complet — FSM 8 états |
+| `code/tests/test_parcour_led_ino.ino` | Test parcours complet + LEDs + tir catapulte |
+
+### Dépendances
+- `Servo.h` — pilotage servo catapulte D3
+- `Adafruit_NeoPixel` — LEDs RGB signal de tir
+
+---
+
+## Thématique 5 – Programme et composants suivi de ligne, détection de couleur et allumage des LEDs
+**Responsable : Dan-Arias KALEMA MASUDI**
+
+### Fichiers
+| Fichier | Description |
+|---------|-------------|
+| `code/robot_final/robot_final.ino` | États SUIVI_LIGNE, TUNNEL, DETECTION_COULEUR |
+| `code/tests/suiveur_ligne_V2.ino` | Test unitaire capteur ligne |
+| `code/tests/test_parcour_led_ino.ino` | Test LEDs + détection couleur |
+
+### Dépendances
+- `Wire.h` — communication I2C capteur ligne Me RGB (0x20)
+- `Adafruit_TCS34725` — capteur couleur
+- `Adafruit_NeoPixel` — LEDs RGB
+- `rgb_lcd` — afficheur LCD Grove 16×2
+
+---
+
+## Thématique 6 – Programme et composants évitement d'obstacles, suivi de mur et récupération de ligne
+**Responsable : Dan-Arias KALEMA MASUDI**
+
+### Fichiers
+| Fichier | Description |
+|---------|-------------|
+| `code/robot_final/robot_final.ino` | États EVITEMENT_O1, EVITEMENT_O2, REPRENDRE_LIGNE |
+| `code/tests/Ultrason_ino.ino` | Test unitaire capteur ultrason |
+| `code/tests/test_tunel_obs_ino.ino` | Test tunnel + évitement obstacles |
+
+### Dépendances
+- `Wire.h` — communication I2C
+- `Servo.h` — orientation capteur ultrason D3
