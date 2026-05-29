@@ -153,3 +153,21 @@ détection couleur, LEDs NeoPixel, afficheur LCD et tir catapulte.
 - Validation du système de lancement
 - Réalisation d'un tir supérieur à 3 mètres
 - Identification des paramètres influençant la stabilité et la précision du tir
+## Passerelle en bâtonnets de glace — DIAKHOUMPA Ndoumbé
+
+### Rôle
+Conception, modélisation et réalisation d'une passerelle structurelle
+en bâtonnets de glace permettant au robot de franchir la section
+reliant la rampe R2 à la plateforme de tir P2. Modélisation numérique
+sur RDM6, fabrication par assemblage de treillis triangulés doublés
+et validation expérimentale par test de passage du robot.
+
+### Fichiers
+| Fichier | Description |
+|---------|-------------|
+| `passerelle/rapport_technique.docx` | Rapport technique complet — conception, RDM6, résultats |
+| `passerelle/poster_passerelle.pptx` | Poster de présentation |
+| `passerelle/simulation/RDM6_contrainte.png` | Simulation RDM6 — contrainte max 24,98 MPa |
+| `passerelle/photos/arcs_lateraux.jpg` | Fabrication des arcs latéraux en triangles doublés |
+| `passerelle/photos/passerelle_terminee.jpg` | Vue d'ensemble — 900 mm × 300 mm |
+| `passerelle/photos/test_robot.jpg` | Test de passage du robot — validé ✓ |
