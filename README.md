@@ -1,3 +1,4 @@
+rojectile via catapulte.
 # Projet Robotique – Groupe 05
 **Université Évry Paris-Saclay – L3 – 2025-2026**
 
@@ -14,8 +15,7 @@
 
 ## Description du robot
 Robot autonome 3 roues sur base Arduino Uno (kit Makeblock).  
-Il suit une ligne noire, évite des obstacles, détecte des couleurs et lance un projectile via catapulte.
-
+Il suit une ligne noire, évite des obstacles, détecte des couleurs et lance un p
 **Matériel :** DRV8830 I2C, capteur ligne Me RGB (0x20), ultrason Grove D4, servo D3, NeoPixel 30 LEDs, TCS34725, LCD Grove 16×2 I2C.
 
 ## FSM – 8 états
@@ -43,3 +43,26 @@ Groupe_05_Projet_robotique/
 - Chaque dossier contient un `README.md`
 - Ne pas committer de fichiers binaires (.pdf, .docx, .stl…)
 - Toute fusion passe par une **Pull Request** validée par le chef de projet
+
+- ## Gestion globale du programme – Karim Zerdali
+
+### Rôle
+Conception et développement de l'ensemble de la logique de pilotage :
+machine à états finis (FSM), suivi de ligne, tunnel, évitement obstacles,
+détection couleur, LEDs NeoPixel, afficheur LCD et tir catapulte.
+
+### Fichiers
+| Fichier | Description |
+|---------|-------------|
+| `code/robot_final/robot_final.ino` | Code global complet — FSM 8 états |
+| `code/tests/Ultrason_ino.ino` | Test unitaire capteur ultrason |
+| `code/tests/suiveur_ligne_V2.ino` | Test capteur ligne (version préliminaire) |
+| `code/tests/test_tunel_obs_ino.ino` | Test tunnel + évitement obstacles |
+| `code/tests/test_parcour_led_ino.ino` | Test parcours complet + LEDs + couleur |
+
+### Dépendances
+- `Wire.h` — communication I2C
+- `Servo.h` — pilotage servo ultrason
+- `Adafruit_TCS34725` — capteur couleur
+- `Adafruit_NeoPixel` — LEDs RGB
+- `rgb_lcd` — afficheur LCD Grove
