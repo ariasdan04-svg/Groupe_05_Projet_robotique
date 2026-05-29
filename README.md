@@ -132,3 +132,24 @@ détection couleur, LEDs NeoPixel, afficheur LCD et tir catapulte.
 - `CD4511` — décodeur BCD → 7 segments
 - Barrières optiques IR — détection du robot
 - KiCad 8/9 — routage PCB
+# Étude Analytique – Groupe 05
+
+## Thématique 2 – Conception du lanceur, plan d'expérience et tests
+**Responsable : David PAPAGIORGOU**
+
+### Objectifs
+- Atteindre une cible de 29 cm de diamètre et 24 cm de hauteur
+- Régler la portée du tir entre 1 et 3 mètres
+- Garantir un lancement répétable et stable
+
+### Travail réalisé
+- Conception et modélisation du lanceur sous SolidWorks
+- Mise en place d'un plan d'expérience de second degré afin d'optimiser les paramètres de lancement
+- Réalisation de plusieurs prototypes et phases de tests
+- Intégration de composants mécaniques et électroniques : moteurs, encodeur, élastiques et structure aluminium
+- Programmation et contrôle via Arduino
+
+### Résultats obtenus
+- Validation du système de lancement
+- Réalisation d'un tir supérieur à 3 mètres
+- Identification des paramètres influençant la stabilité et la précision du tir
