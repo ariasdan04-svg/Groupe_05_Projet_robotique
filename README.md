@@ -111,3 +111,24 @@ détection couleur, LEDs NeoPixel, afficheur LCD et tir catapulte.
 ### Dépendances
 - `Wire.h` — communication I2C
 - `Servo.h` — orientation capteur ultrason D3
+- 
+# Électronique – Groupe 05
+
+## Thématique 8 – Circuit de chronométrage- Kevin RAZAFINDRATSIORY & Inès MELAB 
+
+### Fichiers
+| Fichier | Description |
+|---------|-------------|
+| `schema_chrono.pdf` | Schéma complet du chronomètre (NE555 + CD4013 + CD4518 + CD4511) |
+| `typon/chrono_kicad/` | Projet KiCad complet (routage + typon) |
+| `tests/labdec_test_chrono.png` | Tests Labdec : horloge, bascule, compteur |
+| `carte_finale/chrono_pcb.jpg` | Carte finale gravée et soudée |
+| `debug/debug_notes.md` | Notes de débogage (capteurs, horloge, segments) |
+
+### Dépendances
+- `NE555` — génération d'horloge 1 Hz
+- `CD4013` — bascule D pour stabiliser le déclenchement
+- `CD4518` — compteur BCD double
+- `CD4511` — décodeur BCD → 7 segments
+- Barrières optiques IR — détection du robot
+- KiCad 8/9 — routage PCB
